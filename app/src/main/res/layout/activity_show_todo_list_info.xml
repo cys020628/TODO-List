@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.ShowTodoListInfoActivity" >
+
+    <TextView
+        android:id="@+id/textViewShowTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="제목"
+        tools:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/textViewShowDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="내용"
+        tools:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/textViewShowDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="날짜"
+        tools:textAppearance="@style/TextAppearance.AppCompat.Large" />
+</LinearLayout>
