@@ -7,6 +7,8 @@
 - EditText
 - Button
 - SharedPreferences
+- ActivityResultLauncher
+
 
 
 ### 설명
